@@ -1,0 +1,60 @@
+html{
+    font-size: 10px;
+    background:url("background.avif");
+    background-size: cover;
+}
+
+body,html {
+    margin: 0 ;
+    padding: 0;
+    font-style: Arial;
+}
+
+#container{
+    display: flex;
+    flex: 1;
+
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+
+    min-height: 100vh;
+}
+
+.key {
+    transition: all 0.3s ease;
+
+    border: 0.4rem solid black;
+    border-radius: 0.5rem;
+
+    margin: 1rem;
+    padding: 1rem .5rem;
+
+    width: 10rem;
+
+    text-align: center;
+
+    color: white;
+
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 0.5rem black;
+}
+
+.keyPress {
+    transform: scale(1.1);
+    border-color: red;
+    box-shadow: 0 0 1rem red;
+}
+
+kbd {
+    display: block;
+    font-size: 4rem;
+}
+
+.sounds {
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    letter-spacing: 0.2rem;
+    color: red;
+}
